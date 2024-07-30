@@ -5,7 +5,9 @@ const Footer = () => {
     <footer className="bg-black/[0.96] dark:bg-dot-white/[0.2] bg-dot-black/[0.2]">
       <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="sm:flex sm:items-center sm:justify-between">
-          <div className="text-white text-3xl font-extrabold">Join Today!</div>
+          <div className="text-white selection:text-yellow-400 text-5xl leading-none font-extrabold">
+            Join Today!
+          </div>
 
           <ul className="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
             <li>
@@ -128,7 +130,7 @@ const Footer = () => {
 
         <div className="grid grid-cols-1 gap-8 border-t border-gray-100 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16">
           <div>
-            <p className="font-medium text-gray-900">Services</p>
+            <p className="font-medium text-white/90">Services</p>
 
             <ul className="mt-6 space-y-4 text-sm">
               <li>
@@ -169,25 +171,36 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="font-medium text-gray-900">Company</p>
+            <p className="font-medium text-white/90 selection:text-yellow-400 ">
+              Company
+            </p>
 
             <ul className="mt-6 space-y-4 text-sm">
               <li>
-                <a href="#" className="text-white transition hover:opacity-75">
+                <a
+                  href="#"
+                  className="text-white selection:text-yellow-400  transition hover:opacity-75"
+                >
                   {" "}
                   About{" "}
                 </a>
               </li>
 
               <li>
-                <a href="#" className="text-white transition hover:opacity-75">
+                <a
+                  href="#"
+                  className="text-white selection:text-yellow-400  transition hover:opacity-75"
+                >
                   {" "}
                   Meet the Team{" "}
                 </a>
               </li>
 
               <li>
-                <a href="#" className="text-white transition hover:opacity-75">
+                <a
+                  href="#"
+                  className="text-white selection:text-yellow-400  transition hover:opacity-75"
+                >
                   {" "}
                   Accounts Review{" "}
                 </a>
@@ -196,25 +209,36 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="font-medium text-gray-900">Helpful Links</p>
+            <p className="font-medium text-white/90 selection:text-yellow-400 ">
+              Helpful Links
+            </p>
 
             <ul className="mt-6 space-y-4 text-sm">
               <li>
-                <a href="#" className="text-white transition hover:opacity-75">
+                <a
+                  href="#"
+                  className="text-white selection:text-yellow-400  transition hover:opacity-75"
+                >
                   {" "}
                   Contact{" "}
                 </a>
               </li>
 
               <li>
-                <a href="#" className="text-white transition hover:opacity-75">
+                <a
+                  href="#"
+                  className="text-white selection:text-yellow-400  transition hover:opacity-75"
+                >
                   {" "}
                   FAQs{" "}
                 </a>
               </li>
 
               <li>
-                <a href="#" className="text-white transition hover:opacity-75">
+                <a
+                  href="#"
+                  className="text-white selection:text-yellow-400  transition hover:opacity-75"
+                >
                   {" "}
                   Live Chat{" "}
                 </a>
@@ -223,32 +247,46 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="font-medium text-gray-900">Legal</p>
+            <p className="font-medium selection:text-yellow-400  text-white/90">
+              Legal
+            </p>
 
             <ul className="mt-6 space-y-4 text-sm">
               <li>
-                <a href="#" className="text-white transition hover:opacity-75">
+                <a
+                  href="#"
+                  className="text-white selection:text-yellow-400  transition hover:opacity-75"
+                >
                   {" "}
                   Accessibility{" "}
                 </a>
               </li>
 
               <li>
-                <a href="#" className="text-white transition hover:opacity-75">
+                <a
+                  href="#"
+                  className="text-white selection:text-yellow-400  transition hover:opacity-75"
+                >
                   {" "}
                   Returns Policy{" "}
                 </a>
               </li>
 
               <li>
-                <a href="#" className="text-white transition hover:opacity-75">
+                <a
+                  href="#"
+                  className="text-white selection:text-yellow-400  transition hover:opacity-75"
+                >
                   {" "}
                   Refund Policy{" "}
                 </a>
               </li>
 
               <li>
-                <a href="#" className="text-white transition hover:opacity-75">
+                <a
+                  href="#"
+                  className="text-white selection:text-yellow-400  transition hover:opacity-75"
+                >
                   {" "}
                   Hiring Statistics{" "}
                 </a>
@@ -257,7 +295,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className="text-xs text-white">
+        <p className="text-xs selection:text-yellow-400  text-white">
           &copy; 2024. Danyal Inc. All rights reserved.
         </p>
       </div>

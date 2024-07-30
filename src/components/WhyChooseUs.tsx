@@ -37,7 +37,7 @@ const musicSchoolContent = [
 
 function WhyChooseUs() {
   return (
-    <div>
+    <div className="selection:text-yellow-400 ">
       <StickyScroll content={musicSchoolContent} />
     </div>
   );

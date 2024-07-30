@@ -17,7 +17,7 @@ const FeaturedCourses = () => {
     (course: Course) => course.isFeatured
   );
   return (
-    <div className=" bg-black/[0.96] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] py-12">
+    <div className="selection:text-yellow-400 bg-black/[0.96] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] py-12">
       <div>
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
